@@ -395,10 +395,10 @@ int main (int argc, char *argv[])
         }
         planarMesh.triangles = mesh.triangles;
 
-        string output_UVMesh1="output/UVMesh1.ply";
-        cout << "Saving parameterization mesh to " << output_UVMesh1 << endl;
-        //planarMesh.writeFileOBJ(output_UVMesh1);
-        planarMesh.writeFilePLY(output_UVMesh1);
+        //string output_UVMesh1="output/UVMesh1.ply";
+        //cout << "Saving parameterization mesh to " << output_UVMesh1 << endl;
+        ////planarMesh.writeFileOBJ(output_UVMesh1);
+        //planarMesh.writeFilePLY(output_UVMesh1);
 
 
         //Create a TextureMesh mesh with UV coordinates
@@ -415,7 +415,7 @@ int main (int argc, char *argv[])
             textureMesh.UV[i].set(float(UV(i,0)), float(UV(i,1)));
 
         //Dump textureMesh to file (.obj or .ply)
-        string output_UVMesh2="output/UVMesh2.ply";
+        string output_UVMesh2="output/meshTexture_sparse.ply";
         cout << "Saving texture mesh to " << output_UVMesh2 << endl;
         //textureMesh.writeFileOBJ(output_UVMesh2);
         textureMesh.writeFilePLY(output_UVMesh2);

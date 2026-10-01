@@ -146,9 +146,9 @@ int main (int argc, char *argv[])
         //std::string filename("meshes/mannequin2.ply");
         //std::string filename("meshes/mask2.ply");
         //std::string filename("meshes/knot-hole.ply");
-        //std::string filename("meshes/Nefertiti.990kv.ply");
+        std::string filename("meshes/Nefertiti.990kv.ply");
         //std::string filename("meshes/angel_kneeling.150kv.ply");
-        std::string filename("meshes/bunny.ply");
+        //std::string filename("meshes/bunny.ply");
 
         if (argc > 1)
             filename = std::string(argv[1]);
