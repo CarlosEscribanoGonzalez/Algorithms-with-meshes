@@ -1,0 +1,14 @@
+#OBJ material definitions for FMFIG exercises
+ newmtl texture
+   Ka 1.000 1.000 1.000
+   Kd 1.000 1.000 1.000
+   d 1.0
+   illum 2
+   map_Ka UVchecker.jpg
+
+ newmtl isolines
+   Ka 1.000 1.000 1.000
+   Kd 1.000 1.000 1.000
+   d 1.0
+   illum 1
+   map_Ka isolinesTexture.png
