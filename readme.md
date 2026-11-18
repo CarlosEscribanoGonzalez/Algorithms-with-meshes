@@ -11,8 +11,8 @@ _**meshStatistic**_
   * Mixed Voronoi area per vertex
 * Output of a vertex-colored mesh with poorly shaped triangles (those whose shape factor is below a threshold) highlighted in red
 <p align = "center"> 
- <img width="259" height="400" alt="athena mesh" src="https://github.com/user-attachments/assets/7f7485c8-470b-45e6-b46a-c26209e1470e" />
- <img width="444" height="400" alt="Bunny mesh" src="https://github.com/user-attachments/assets/d0b4183a-69de-4a88-ab79-75b98eb40fd8" />
+ <img width="194" height="300" alt="athena mesh" src="https://github.com/user-attachments/assets/7f7485c8-470b-45e6-b46a-c26209e1470e" />
+ <img width="531" height="300" alt="bunny mesh" src="https://github.com/user-attachments/assets/5ae10c5e-37c5-47d7-8e8d-9edc5c68df33" />
 </p>
 
 _**meshBoundary**_
