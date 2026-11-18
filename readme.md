@@ -24,8 +24,8 @@ _**meshBoundary**_
 * Supports meshes with multiple boundaries
 * Implementation is optimized, and has proven to be capable of processing meshes with ~1,000,000 vertices in less than 5 seconds (Release mode)
 <p align = "center">
- <img width="325" height="400" alt="angel mesh" src="https://github.com/user-attachments/assets/384e1f80-e997-4163-88d9-6ce1778a319c" />
- <img width="320" height="400" alt="nefertiti mesh" src="https://github.com/user-attachments/assets/a77eb1f2-ba2c-4d23-a473-ad95b7057a43" />
+ <img width="244" height="300" alt="angel mesh" src="https://github.com/user-attachments/assets/384e1f80-e997-4163-88d9-6ce1778a319c" />
+ <img width="244" height="300" alt="nefertiti mesh" src="https://github.com/user-attachments/assets/a77eb1f2-ba2c-4d23-a473-ad95b7057a43" />
 </p>
 
 _**meshTexture-Dense**_
@@ -38,8 +38,8 @@ _**meshTexture-Sparse**_
 * Same functionality as the dense version, rewritten to scale to much larger meshes thanks to sparse matrices
 * Drastically reduced memory usage and computation time; meshes with ~50,000 vertices are processed in under two seconds
 <p align = "center">
- <img width="330" height="400" alt="mannequin mesh" src="https://github.com/user-attachments/assets/306092f9-19ec-4420-bd56-fcb2530ac8ba" />
- <img width="418" height="400" alt="lion mesh" src="https://github.com/user-attachments/assets/b85e8056-f3bc-4c2f-aca1-55d85acf4a33" />
+ <img width="248" height="300" alt="mannequin mesh" src="https://github.com/user-attachments/assets/306092f9-19ec-4420-bd56-fcb2530ac8ba" />
+ <img width="300" height="300" alt="lion mesh" src="https://github.com/user-attachments/assets/b85e8056-f3bc-4c2f-aca1-55d85acf4a33" />
 </p>
 
 ## Usage
